@@ -5,7 +5,7 @@
     <artifactId>spring-boot-pom</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>SpringBootPoom</name>
+    <name>Spring Boot Poom</name>
     <url>https://github.com/SamBuri/SpringBootPoom</url>
     <description>Custom Spring boot poom bundled with spring cloud dependencies</description>
     <properties>

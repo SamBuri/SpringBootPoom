@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.saburi</groupId>
+  <artifactId>spring-boot-pom</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220219104023</lastUpdated>
+  </versioning>
+</metadata>
