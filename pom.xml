@@ -135,6 +135,11 @@
                         </goals>
                     </execution>
                 </executions>
+                
+                <configuration>
+                    <keyname>0xE2C67A9A</keyname>
+                    <passphraseServerId>0xE2C67A9A</passphraseServerId>
+                </configuration>
             </plugin>
             
             <plugin>
