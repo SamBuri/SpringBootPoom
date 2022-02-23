@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.samburi</groupId>
     <artifactId>spring-boot-pom</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packaging>pom</packaging>
     <name>SpringBootPoom</name>
     <url>https://github.com/SamBuri/SpringBootPoom</url>
@@ -77,6 +77,7 @@
             </plugin>
             
             <plugin>
+                <inherited>false</inherited>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <version>1.6.8</version>
@@ -96,6 +97,7 @@
             </plugin>
             
             <plugin>
+                <inherited>false</inherited>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
                 <version>3.2.1</version>
@@ -109,6 +111,7 @@
                 </executions>
             </plugin>
             <plugin>
+                <inherited>false</inherited>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.3.1</version>
@@ -144,6 +147,7 @@
             </plugin>
             
             <plugin>
+                <inherited>false</inherited>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
