@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.samburi</groupId>
     <artifactId>spring-boot-pom</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <packaging>pom</packaging>
     <name>SpringBootPoom</name>
     <url>https://github.com/SamBuri/SpringBootPoom</url>
     <description>Custom Spring boot poom bundled with spring cloud dependencies</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-cloud.version>2020.0.3</spring-cloud.version>
+        <spring-cloud.version>2021.0.3</spring-cloud.version>
         <!--<spring-cloud.version>Hoxton.SR8</spring-cloud.version>-->
         <java.version>17</java.version>
     </properties>
@@ -18,7 +18,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.0</version>
+        <version>2.7.1</version>
         <relativePath></relativePath>
     </parent>
     <dependencies>
@@ -27,10 +27,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
-<!--        <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>-->
+        </dependency>
     </dependencies>
     
     
