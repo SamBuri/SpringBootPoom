@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.samburi</groupId>
     <artifactId>spring-boot-pom</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <packaging>pom</packaging>
     <name>SpringBootPoom</name>
     <url>https://github.com/SamBuri/SpringBootPoom</url>
@@ -22,7 +22,8 @@
         <relativePath></relativePath>
     </parent>
     <dependencies>
-              
+     
+                
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
@@ -31,8 +32,40 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        
+        <!--        <dependency>
+            <groupId>io.fabric8</groupId>
+            <artifactId>spring-cloud-starter-kubernetes</artifactId>
+            <version>0.1.6</version>
+        </dependency>-->
+        
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-kubernetes-client-config</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-kubernetes-client</artifactId>
+        </dependency>
+        
+<!--        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-kubernetes-discoveryclient</artifactId>
+        </dependency>-->
+        
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-kubernetes-client-loadbalancer</artifactId>
+        </dependency>
+        
+        <!--        <dependency>
+            <groupId>io.fabric8</groupId>
+            <artifactId>spring-cloud-starter-kubernetes-netflix</artifactId>
+            <version>0.1.6</version>
+        </dependency>-->
+        
     </dependencies>
-    
     
     <licenses>
         <license>
@@ -125,7 +158,7 @@
             </plugin>
     
             <plugin>
-                 <inherited>false</inherited>
+                <inherited>false</inherited>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>3.0.1</version>
@@ -139,7 +172,7 @@
                     </execution>
                 </executions>
                 
-<!--                <configuration>
+                <!--                <configuration>
                     <keyname>0xE2C67A9A</keyname>
                     <passphraseServerId>0xE2C67A9A</passphraseServerId>
                 </configuration>-->
@@ -175,7 +208,7 @@
         </dependencies>
     </dependencyManagement>
 
-<!--        <repositories>
+    <!--        <repositories>
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
