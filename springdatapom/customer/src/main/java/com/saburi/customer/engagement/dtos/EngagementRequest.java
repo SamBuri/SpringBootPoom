@@ -8,7 +8,7 @@ import com.saburi.customer.customer.Customer;
 import java.time.LocalDate;
 import com.saburi.customer.enums.EngagementReasons;
 import com.saburi.customer.enums.EngagementModes;
-import javax.validation.constraints.Size;
+import jakarta.validation.constraints.Size;
 import com.saburi.customer.engagementmodes.EngagementModes;
 import com.saburi.customer.engagement.Engagement;
 
