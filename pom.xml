@@ -3,21 +3,21 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.samburi</groupId>
     <artifactId>spring-boot-pom</artifactId>
-    <version>1.0.9</version>
+    <version>1.2.0</version>
     <packaging>pom</packaging>
     <name>SpringBootPom</name>
     <url>https://github.com/SamBuri/SpringBootPoom</url>
     <description>Custom Spring boot pom bundled with spring cloud dependencies</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-cloud.version>2022.0.3</spring-cloud.version>
-        <java.version>19</java.version>
+        <spring-cloud.version>2023.0.3</spring-cloud.version>
+        <java.version>22</java.version>
     </properties>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.1</version>
+        <version>3.3.3</version>
         <relativePath></relativePath>
     </parent>
     <dependencies>
